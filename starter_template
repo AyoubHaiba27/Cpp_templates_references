@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+#include <iostream>
+
+#define AYO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie();
+#define int long long
+#define dd long double
+
+using namespace std;
+
+signed main(){
+    AYO
+
+}
