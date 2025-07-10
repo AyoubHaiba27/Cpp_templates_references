@@ -6,7 +6,7 @@ vector<data_type> vector_name //declear a vector without a specific size
 vector_name[i] = value //assign a value to an element in a vector
 
 cin>> vector_name[i] ; //read a value and assign it to an elemant in the vector
-cout<< v[i] ; //print the value of an element in a vector
+cout<< vector_name[i] ; //print the value of an element in a vector
 
 vector_name.size() //returns size of vector
 vector_name.resize(x); //Changes the size of the vector to n
