@@ -11,19 +11,19 @@ queue_name.size();//returns the size of the queue
 queue_name.empty();//returns either the queue is empty(1) or not(0)
 
 //dequeue
-#include<dequeue>
+#include<deque>
 
-dequeue<data_type>dequeue_name(dequeue_size);//declear a dequeue
+dequeue<data_type>dequeue_name(dequeue_size);//declear a deque
 
-dequeue_name[i]//access the element in the position i
+deque_name[i]//access the element in the position i
   
-dequeue_name.push_back(var);//pushes var to the end of of the dequeue
-dequeue_name.push_front(var);//pushes var to the start of of the dequeue
-dequeue_name.pop_front();//pops the first element of the dequeue
-dequeue_name.pop_back();//pops the last element of the dequeue
-dequeue_name.size();//returns the size of the dequeue
-dequeue_name.empty();//returns either the dequeue is empty(1) or not(0)
-dequeue_name.clear();//erases all elements in the dequeue
+deque_name.push_back(var);//pushes var to the end of of the deque
+deque_name.push_front(var);//pushes var to the start of of the deque
+deque_name.pop_front();//pops the first element of the deque
+deque_name.pop_back();//pops the last element of the deque
+deque_name.size();//returns the size of the deque
+deque_name.empty();//returns either the deque is empty(1) or not(0)
+deque_name.clear();//erases all elements in the deque
 
 //priority queue
 #include<queue>
