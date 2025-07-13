@@ -28,7 +28,7 @@ deque_name.clear();//erases all elements in the deque
 //priority queue
 #include<queue>
 
-priority_queue<data_type>priority_q_name;//declear a priority queue ascendingly
+priority_queue<data_type>priority_q_name;//declear a priority queue descendingly
 priority_queue<data_type, vector<data_type>, greater<data_type>>priority_q_name;//declear a priority queue ascendingly // all three fata types must be the same
 
 priority_q_name.push(var);//pushes var to its place in the priority queue
