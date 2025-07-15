@@ -37,3 +37,8 @@ priority_q_name.top();//returns the first element in the priority queue
 priority_q_name.size();//returns the size of the priority queue
 priority_q_name.empty();//returns either the priority queue is empty(1) or not(0)
 
+/*
+queue works in first in first out
+deque is same as queue but has more functions and more accessibility 
+priority queue sorts elements automatically taking log(n) time
+*/
